@@ -1,12 +1,18 @@
 import streamlit as st
 import requests
+import pickle
+
+#import movies model
+movies = pickle.load(open('../Model/movies.pkl','rb'))
 
 
 #Header Display
-st.header('Movie Recommender System')
+st.title('Movie Recommender System')
 
-# Create a text area to take input movie name
-movie_name = st.text_input("Enter a movie name:")
+selected_movie_name = st.selectbox(
+'Select Movie',
+movies['title'].values
+)
 
 if st.button("Recommend"):
     pass
