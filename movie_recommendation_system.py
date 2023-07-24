@@ -35,8 +35,8 @@ similar = cosine_similarity(vector)
 
 
 """## Saving the Model"""
-pickle.dump(new_df, open("./Model/movies1.pkl", "wb"))
-# pickle.dump(similar,open("./Model/similar.pkl","wb"))
+pickle.dump(new_df, open("./Model/movies.pkl", "wb"))
+pickle.dump(similar,open("./Model/similar.pkl","wb"))
 
 
 
