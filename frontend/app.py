@@ -3,10 +3,10 @@ import requests
 import pickle
 
 #import movies model
-movies = pickle.load(open('/app/movies.pkl','rb'))
+movies = pickle.load(open('./movies.pkl','rb'))
 
 #port where backend is running
-api_base_url = "http://localhost:8000"
+api_base_url = "http://backend_container:8000"
 
 #Header Display
 st.title('Movie Recommender System')
@@ -26,6 +26,7 @@ if st.button("Recommend"):
     response = requests.get(api_endpoint, params=params)
 
     if response.status_code == 200:
+        
         # Successfully received the response from the API
         data = response.json()
         input_movie = data["input_movie"]

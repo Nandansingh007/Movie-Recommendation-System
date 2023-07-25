@@ -14,4 +14,6 @@ RUN pip install --upgrade pip -r requirements.txt
 EXPOSE 8501
 
 # Set the command to run your Streamlit app
-CMD ["streamlit", "run", "app.py"]
+ENTRYPOINT ["streamlit", "run"]
+
+CMD ["app.py"]
