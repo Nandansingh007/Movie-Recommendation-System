@@ -3,7 +3,7 @@ import requests
 import pickle
 
 #import movies model
-movies = pickle.load(open('../Model/movies.pkl','rb'))
+movies = pickle.load(open('/app/movies.pkl','rb'))
 
 
 #Header Display
