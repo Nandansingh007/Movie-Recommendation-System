@@ -6,7 +6,7 @@ import pickle
 movies = pickle.load(open('./movies.pkl','rb'))
 
 #port where backend is running
-api_base_url = "http://backend_container:8000"
+api_base_url = "http://backend:8000"
 
 #Header Display
 st.title('Movie Recommender System')
