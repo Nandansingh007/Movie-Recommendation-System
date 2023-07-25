@@ -8,8 +8,8 @@ import pickle
 app = FastAPI()
 
 #Loading the Model
-similar = pickle.load(open("../Model/similar.pkl", 'rb'))
-movies = pickle.load(open('../Model/movies.pkl','rb'))
+similar = pickle.load(open("/app/Model/similar.pkl", 'rb'))
+movies = pickle.load(open('/app/Model/movies.pkl','rb'))
 
 # #Function to make the Recommendation
 # @app.post("/recommend")
@@ -44,6 +44,6 @@ def recommend(movie):
         return {"input_movie": movie, "recommended_movies": recommended_movies}
 
 if __name__=="__main__":
-    uvicorn.run("app:app",host="localhost", port=8084, reload=True)
+    uvicorn.run("app:app",host="localhost", reload=True)
     
 
