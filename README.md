@@ -28,7 +28,7 @@ Follow these steps to run the Movie Recommendation System on your local machine:
 
 #### Clone the GitHub repository to your local machine:
 
-git clone https://github.com/your-username/movie-recommendation-system.git
+git clone https://github.com/Nandansingh007/Movie-Recommendation-System.git
 
 #### Navigate to the project directory:
 
@@ -49,7 +49,7 @@ python run_frontend.py
 
 #### Clone the GitHub repository to your local machine (if you haven't done so):
 
-git clone https://github.com/your-username/movie-recommendation-system.git
+git clone https://github.com/Nandansingh007/Movie-Recommendation-System.git
 
 #### Navigate to the project directory:
 
