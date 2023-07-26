@@ -19,7 +19,7 @@ Docker
 
 Before running the code, ensure that you have the following prerequisites installed on your machine:
 
-Python 3.x
+Python 3. x
 
 Docker (if running the code using Docker)
 
