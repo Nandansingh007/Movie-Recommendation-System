@@ -26,31 +26,33 @@ Docker (if running the code using Docker)
 ### 1. Running the Code on Local Machine
 Follow these steps to run the Movie Recommendation System on your local machine:
 
-Clone the GitHub repository to your local machine:
+#### Clone the GitHub repository to your local machine:
 
 git clone https://github.com/your-username/movie-recommendation-system.git
 
-Navigate to the project directory:
+#### Navigate to the project directory:
 
 Install the required Python packages:
 
 pip install -r requirements.txt
 
 
-Run the backend and frontend services:
+#### Run the backend and frontend services:
 
 python run_backend.py
+
 python run_frontend.py
 
 
 ### 2. Running the Code on Docker
-To run the Movie Recommendation System using Docker, follow these steps:
 
-Clone the GitHub repository to your local machine (if you haven't done so):
+
+#### Clone the GitHub repository to your local machine (if you haven't done so):
 
 git clone https://github.com/your-username/movie-recommendation-system.git
 
-Navigate to the project directory:
+#### Navigate to the project directory:
+
 docker-compose up
 
 
