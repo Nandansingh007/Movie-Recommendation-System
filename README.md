@@ -11,6 +11,10 @@ Python
 
 scikit-learn (sklearn)
 
+FastAPI(Backend)
+
+Streamlit(Frontend)
+
 Docker
 
 # Running the Code
